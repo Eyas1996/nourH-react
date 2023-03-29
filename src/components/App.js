@@ -1,20 +1,15 @@
 import React from "react";
+import Header from "./Header";
+import Social from "./Social";
+import Text from "./Text";
 
 function App() {
   return (
     <div>
-      <h1>Test</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia natus
-        non id error dolori
-      </p>
-      <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-      </ul>
+      <Header />
+      <Text />
+      <Social />
     </div>
-
   );
 }
-export default App
+export default App;
