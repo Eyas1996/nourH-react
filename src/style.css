@@ -1,18 +1,16 @@
-h1 {
-  background-color: #ed7d7d;
-  color: rgb(43, 68, 68);
-  text-align: center;
-  font-size: 2.5rem;
-  padding: 10px;
-  border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+.container {
+  margin-top: 20px;
 }
 
-#root {
-  margin: 0;
-  background-color: rgb(151, 151, 229);
-  padding: 20px;
+.navbar {
+  --bs-navbar-padding-x: 0.5rem;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline;
+  padding-left: 10px;
 }
