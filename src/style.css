@@ -12,5 +12,7 @@ div {
 
 label {
   display: inline;
-  padding-left: 10px;
+}
+input[type="checkbox"] {
+  margin: 20px 2px 0px 10px;
 }
