@@ -1,13 +1,12 @@
 import React from "react";
 
-import Header from "./Header";
-import Team from "./Team";
+// function App() {
+//   return <h1>TEST</h1>;
+// }
+// export default App;
+
+
 function App() {
-  return (
-    <div>
-      <Header />
-      <Team />
-    </div>
-  );
+  return <h1>TEST</h1>;
 }
 export default App;

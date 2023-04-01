@@ -7,6 +7,9 @@ import ReactDOM from "react-dom/client";
 // import "./x-components/style.css";
 // import App from "./x-components/App";
 
+// import "./x-x-components/style.css";
+// import App from "./x-x-components/App";
+
 import "./components/style.css";
 import App from "./components/App";
 
