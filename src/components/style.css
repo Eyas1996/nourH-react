@@ -1,0 +1,36 @@
+.container {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  width: 285px;
+  padding: 15px 15px 10px;
+  background-color: #111;
+  color: #fff; 
+}
+.card .image img {
+  border: 3px solid #fff; 
+}
+.card .info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.card .info .name{
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.card .info span{
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+.card .info .title{
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}

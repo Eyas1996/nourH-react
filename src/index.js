@@ -3,8 +3,11 @@ import React from "react";
 // You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".
 import ReactDOM from "react-dom/client";
 
-import "./style.css";
 
+// import "./x-components/style.css";
+// import App from "./x-components/App";
+
+import "./components/style.css";
 import App from "./components/App";
 
 // Render Method takes to parapemter (what, where)
