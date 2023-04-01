@@ -2,11 +2,13 @@ import React from "react";
 
 function Header() {
   const style = {
-    margin: "20px",
-    textAlign: "center",
-    fontSize: "2.3rem",
+    margin: "0px auto",
   };
-  return <h1 style={style}>Hello Team Members</h1>;
+  return (
+    <div className="navbar bg-dark rounded text-white text-center mt-20">
+      <h1 style={style}>Our Team</h1>
+    </div>
+  );
 }
 
 export default Header;
